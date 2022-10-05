@@ -13,13 +13,26 @@
 #     print('Не верно указано значение')
 
 
-x=int(input('x = '))
-y=int(input('y = '))
-if x > 0 and y > 0:
-    print('I четверть')
-elif x < 0 and y > 0:
-    print('II четверть')
-elif x < 0 and y < 0:
-    print('III четверть')    
-elif x > 0 and y < 0:
-    print('IV четверть')   
+# x=int(input('x = '))
+# y=int(input('y = '))
+# if x > 0 and y > 0:
+#     print('I четверть')
+# elif x < 0 and y > 0:
+#     print('II четверть')
+# elif x < 0 and y < 0:
+#     print('III четверть')    
+# elif x > 0 and y < 0:
+#     print('IV четверть')   
+
+# 3. Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти (x и y).
+n=int(input('Укажите номер четсверти: '))
+if n == 1:
+    print('x>0 and y>0')
+elif n==2:
+    print('x<0 and y>0')
+elif n==3:
+    print('x<0 and y<0')
+elif n==4:
+    print('x>0 and y<0')
+else:
+    print('Укажите верный номер четверти. Допустимые значение 1, 2, 3, 4')

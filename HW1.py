@@ -1,1 +1,3 @@
-print('Hello word')
+a=int(input('a = '))
+print(a)
+4

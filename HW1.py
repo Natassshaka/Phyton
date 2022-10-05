@@ -4,10 +4,22 @@
 # - 7 -> да
 # - 1 -> нет
 
-n=int(input('Введите число: '))
-if n<6:
-    print('нет')
-elif 6<=n<=7:
-    print('да')
-else:
-    print('Не верно указано значение')
+# n=int(input('Введите число: '))
+# if n<6:
+#     print('нет')
+# elif 6<=n<=7:
+#     print('да')
+# else:
+#     print('Не верно указано значение')
+
+
+x=int(input('x = '))
+y=int(input('y = '))
+if x > 0 and y > 0:
+    print('I четверть')
+elif x < 0 and y > 0:
+    print('II четверть')
+elif x < 0 and y < 0:
+    print('III четверть')    
+elif x > 0 and y < 0:
+    print('IV четверть')   

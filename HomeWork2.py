@@ -65,7 +65,3 @@ for i in range(random.randint(5,20))]
 print(f"Исходный список: {random_list}")
 random.shuffle(random_list)
 print(f"Список после перемешивания: {random_list}")
-
-
-
-
